@@ -1,0 +1,15 @@
+Package: createRepo
+Title: Create a standard repository
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alexandre",
+           family = "Martensen",
+           role = c("aut", "cre"),
+           email = "acmartensen@gmail.com",
+           comment = c(ORCID = "0000-0001-9017-7480"))
+Description: This package creates a standard repository composed of 8 sub-folders and one README file.
+License: `use_mit_license("Alexandre Camargo Martensen")`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
