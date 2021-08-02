@@ -14,7 +14,7 @@ createRepo<-function(nome){
   #dir.create(nome)
   #setwd(paste("./", nome, sep=""))
   usethis::create_project(path = getwd(), rstudio = rstudioapi::isAvailable(), open = FALSE)
-  usethis::use_github(private=TRUE)
+  #usethis::use_github(private=TRUE)
   dir.create("data")
   dir.create("data_use")
   dir.create("scripts")
