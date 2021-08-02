@@ -1,13 +1,13 @@
 Package: createRepo
 Title: Create a standard repository
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person(given = "Alexandre",
            family = "Martensen",
            role = c("aut", "cre"),
            email = "acmartensen@gmail.com",
            comment = c(ORCID = "0000-0001-9017-7480"))
-Description: This package creates a standard repository composed of 8 sub-folders and one README file.
+Description: This package creates a standard repository composed of 8 sub-folders a one README file within a RStudio project.
 Depends: 
     R (>= 3.1.0)
 Imports:

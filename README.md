@@ -1,7 +1,7 @@
 # createRepo package
 
 
-Esse pacote tem como objetivo auxiliar na organização de projetos, e apresenta uma função createRepo() que cria um repositório padrão com 8 pastas e um arquivo README.md.
+Esse pacote tem como objetivo auxiliar na organização de projetos, e apresenta uma função createRepo() que cria um repositório padrão com 8 pastas e um arquivo README.md, al�m de criar um projeto no RStudio.
 
 As pastas são as seguintes:
 
