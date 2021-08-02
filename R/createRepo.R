@@ -13,7 +13,7 @@
 createRepo<-function(nome){
   dir.create(nome)
   setwd(paste("./", nome, sep=""))
-  #usethis::create_project(file.path=getwd(), rstudio = TRUE)
+  usethis::create_project(file.path=getwd(), rstudio = TRUE)
   dir.create("data")
   dir.create("data_use")
   dir.create("scripts")
