@@ -10,10 +10,10 @@
 
 
 
-createRepo<-function(pasta){
-  #dir.create(nome)
-  #setwd(paste("./", nome, sep=""))
-  usethis::create_package(path=pasta, rstudio = rstudioapi::isAvailable(), open = rlang::is_interactive())
+createRepo<-function(nome){
+  dir.create(nome)
+  setwd(paste("./", nome, sep=""))
+  usethis::create_package(path=getwd(), rstudio = rstudioapi::isAvailable(), open = rlang::is_interactive())
   dir.create("data")
   dir.create("data_use")
   dir.create("scripts")
