@@ -10,7 +10,7 @@
 
 
 
-createRepo<-function(nome){
+createRepo<-function(){
   #dir.create(nome)
   #setwd(paste("./", nome, sep=""))
   usethis::create_project(path = getwd(), rstudio = rstudioapi::isAvailable(), open = FALSE)
@@ -23,8 +23,8 @@ createRepo<-function(nome){
   dir.create("docs")
   dir.create("Rfunctions")
   dir.create("vignettes")
-  unlink("R")
+  unlink("R", recursive = TRUE)
   fileConn<-file("README.txt")
-  writeLines(paste("README", nome, sep="_"), fileConn)
+  writeLines(paste("README", "projeto", sep="_"), fileConn)
   close(fileConn)
 }
