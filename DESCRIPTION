@@ -8,6 +8,10 @@ Authors@R:
            email = "acmartensen@gmail.com",
            comment = c(ORCID = "0000-0001-9017-7480"))
 Description: This package creates a standard repository composed of 8 sub-folders and one README file.
+Depends: 
+    R (>= 3.1.0)
+Imports:
+    usethis (>= 2.0.1)
 License: `use_mit_license("Alexandre Camargo Martensen")`
 Encoding: UTF-8
 LazyData: true
