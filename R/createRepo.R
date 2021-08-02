@@ -11,9 +11,9 @@
 
 
 createRepo<-function(nome){
-  dir.create(nome)
-  setwd(paste("./", nome, sep=""))
-  usethis::create_project(rstudio = rstudioapi::isAvailable(), open = rlang::is_interactive()))
+  #dir.create(nome)
+  #setwd(paste("./", nome, sep=""))
+  usethis::create_project(path = getwd(), rstudio = rstudioapi::isAvailable(), open = rlang::is_interactive())
   dir.create("data")
   dir.create("data_use")
   dir.create("scripts")
@@ -22,6 +22,7 @@ createRepo<-function(nome){
   dir.create("docs")
   dir.create("Rfunctions")
   dir.create("vignettes")
+  unlink("R")
   fileConn<-file("README.txt")
   writeLines(paste("README", nome, sep="_"), fileConn)
   close(fileConn)
