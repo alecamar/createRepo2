@@ -28,5 +28,7 @@ O Ben Marwick, o próprio Carl Boettinger e o Lincoln Mullen sistematizaram uma 
 
 Sugestões e comentários são sempre bem-vindos!
 
+O pacote segue uma licença CC BY 2.0
+
 
 
